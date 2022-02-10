@@ -1,12 +1,11 @@
-{
-    "name": "Deur bot",
-    "description": "Happy to see you here",
+ "name": "Der bot",
+    "description": "Hapere",
     "logo": "",
     "keywords": [
-        "dhshshsbn",
+        "gehehsh"
     ],
-    "repository": "https://github.com/",
-    "success_url": "https://heroku.com",
+    "repository": "https://var.com/",
+    "success_url": "https://combat",
     "stack": "container",
     "env": {
         "API_ID": {
@@ -46,16 +45,16 @@
         "HEROKU_API": {
             "description": "Heroku API token. Needed if deploying on heroku ONLY.",
             "value": "",
-            "required": false
+            "required": true
         },
         "HEROKU_APP_NAME": {
             "description": "Name of your heroku app, given in the first blank on this page. To be added if deploying to heroku ONLY.",
             "value": "",
-            "required": false
+            "required":  true
         }
     },
     "formation": {
-        "worker": {
+      "worker": {
             "quantity": 1,
             "size": "free"
         }
