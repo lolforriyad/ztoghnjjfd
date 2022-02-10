@@ -7,7 +7,7 @@
     ],
     "repository": "https://github.com/",
     "success_url": "https://heroku.com",
-    "stack": "Container",
+    "stack": "container",
     "env": {
         "API_ID": {
             "description": "You api id, from my.telegram.org or @ScrapperRoBot.",
@@ -58,6 +58,6 @@
         "worker": {
             "quantity": 1,
             "size": "free"
-        },
-    },
+        }
+    }
 }
