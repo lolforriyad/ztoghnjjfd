@@ -6,7 +6,7 @@
         "dhshshsbn",
     ],
     "repository": "https://github.com/",
-    "success_url": "https:/tsjsjsm",
+    "success_url": "https://heroku.com",
     "stack": "Container",
     "env": {
         "API_ID": {
