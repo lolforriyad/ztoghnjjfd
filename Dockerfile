@@ -16,4 +16,6 @@ RUN apt-get install -y \
     unzip \
     python3-dev
 
-CMD ["bash", "run.sh"]
+RUN bash run.sh
+
+CMD ["python3", "RUN.py"]
