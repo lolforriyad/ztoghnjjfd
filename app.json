@@ -7,7 +7,7 @@
     ],
     "repository": "https://github.com/",
     "success_url": "https:/tsjsjsm",
-    "stack": "container",
+    "stack": "Container",
     "env": {
         "API_ID": {
             "description": "You api id, from my.telegram.org or @ScrapperRoBot.",
